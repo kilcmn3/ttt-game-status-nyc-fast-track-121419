@@ -73,3 +73,9 @@ def over?(board_array)
     return false
   end
 end
+
+
+def winner?(board)
+  if won?(board)
+    arr_winning_combinaition = won?(board)
+end
