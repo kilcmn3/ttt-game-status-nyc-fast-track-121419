@@ -22,5 +22,10 @@ WIN_COMBINATIONS = [
 def won?(board)
   if board == [] || !WIN_COMBINATIONS
     return false
+  else
+    puts WIN_COMBINATIONS
   end
 end
+
+
+#{name}
