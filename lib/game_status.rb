@@ -32,7 +32,7 @@ def won?(board)
 board.each do |x|
   position_1 = "X"
   position_2 = "O"
-if board[x] == " " || if board[x] !=  " "
+if board[x] == " " || board[x] !=  " "
   return false
 else
   return true
