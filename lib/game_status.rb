@@ -39,12 +39,7 @@ WIN_COMBINATIONS = [
 # end
 
 def won?(board)
-  if board === WIN_COMBINATIONS.each do |i|
-    return true
-  else
-    board == [] || !WIN_COMBINATIONS
-    return false
-  end
-end
+   board === WIN_COMBINATIONS.each do |i|
+return true
 end
 #{name}
