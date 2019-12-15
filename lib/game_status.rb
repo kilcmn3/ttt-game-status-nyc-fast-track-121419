@@ -29,9 +29,9 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
-  board.each do |position|
-    puts board[position]
-  end
+board.each do |x|
+  puts board[x]
+end
 
 end
 
