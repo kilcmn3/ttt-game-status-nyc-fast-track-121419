@@ -33,12 +33,7 @@ def won?(board)
     return false
   elsif
   WIN_COMBINATIONS.each === board
-
     return puts board
-  
-
-
-
   end
 end
 
