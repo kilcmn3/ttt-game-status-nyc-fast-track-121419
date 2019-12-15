@@ -37,7 +37,7 @@ def won?(board_array)
     the_symbol_at_1 = board_arr[first_index_1] # load the value of the board at win_index_1
     the_symbol_at_2 = board_arr[second_index_2] # load the value of the board at win_index_2
     the_symbol_at_3 = board_arr[third_index_3]
-    if the_symbol_at_1 == the_symbol_at_2 == the_symbol_at_3
+    if the_symbol_at_1 == the_symbol_at_2 == the_symbol_at_3 && the_symbol_at_1 = " "
       return combo_arr
   end
 end
