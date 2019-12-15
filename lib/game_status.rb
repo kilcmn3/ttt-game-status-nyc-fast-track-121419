@@ -22,4 +22,5 @@ WIN_COMBINATIONS = [
 def won?(board)
   if board === [] || if !WIN_COMBINATIONS
     return false
+  end
 end
