@@ -75,7 +75,7 @@ def over?(board_array)
 end
 
 
-def winner?(board)
+def winner(board)
   if won?(board)
     arr_winning_combinaition = won?(board)
     index = arr_winning_combinaition[0]
