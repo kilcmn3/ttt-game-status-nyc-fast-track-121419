@@ -28,7 +28,7 @@ WIN_COMBINATIONS = [
 # position_3 = board[win_index_3] # load the value of the board at win_index_3
 
 
-def won?(board_array)
+def won?(board_arr)
 
   WIN_COMBINATIONS.each do |combo_arr|
     first_index_1 = combo_arr[0]
