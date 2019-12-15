@@ -30,7 +30,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   board.each do |position|
-    puts board[postion]
+    puts board[position]
   end
 
 end
