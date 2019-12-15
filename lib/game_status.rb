@@ -30,7 +30,7 @@ WIN_COMBINATIONS = [
 
 def won?(board_arr)
 
-  board_arr.each do |combo_arr|
+  WIN_COMBINATIONS.each do |combo_arr|
     first_index_1 = combo_arr[0]
     second_index_2 = combo_arr[1]
     third_index_3 = combo_arr[2]
@@ -45,8 +45,6 @@ def won?(board_arr)
 end
 return false
 end
-
-
 
 def full?(board_array)
 
