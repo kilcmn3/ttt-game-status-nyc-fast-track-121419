@@ -29,6 +29,7 @@ WIN_COMBINATIONS = [
 
 
 def won?(board_array)
+
   WIN_COMBINATIONS.each do |combo_arr|
     first_index_1 = combo_arr[0]
     second_index_2 = combo_arr[1]
