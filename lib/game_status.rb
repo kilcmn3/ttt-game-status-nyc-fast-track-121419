@@ -29,15 +29,7 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
-  winner_index = WIN_COMBINATIONS.each do |index|
-
-  if board == [] || !WIN_COMBINATIONS || board != winner_index[index]
-    return false
-  else
-    return puts board
-
-end
-end
+  puts board
 end
 
 
