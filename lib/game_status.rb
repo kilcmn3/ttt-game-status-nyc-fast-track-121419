@@ -34,7 +34,7 @@ def won?(board)
   if board == [] || !WIN_COMBINATIONS || board != winner_index[index]
     return false
   else
-
+    return board
 
 end
 end
