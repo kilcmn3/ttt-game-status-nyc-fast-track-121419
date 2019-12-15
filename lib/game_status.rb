@@ -20,7 +20,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if board === [] || !WIN_COMBINATIONS
+  if board == [] || !WIN_COMBINATIONS
     return false
   end
 end
