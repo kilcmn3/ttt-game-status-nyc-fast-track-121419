@@ -29,7 +29,7 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
-  winner_index = WIN_COMBINATIONS.each do [index]
+  winner_index = WIN_COMBINATIONS.each do |index|
   end
   if board == [] || !WIN_COMBINATIONS || board != winner_index[index]
     return false
