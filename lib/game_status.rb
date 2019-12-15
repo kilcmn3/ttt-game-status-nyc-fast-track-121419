@@ -60,6 +60,7 @@ end
 def draw?(board_array)
   if full?(board_array) && !won?(board_arr)
     return true
-  end
+  else
   return false
+end
 end
