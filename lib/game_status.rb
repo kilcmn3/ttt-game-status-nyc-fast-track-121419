@@ -60,4 +60,6 @@ def full?(board_array)
       if the_symbol_at_3 || the_symbol_at_2 || the_symbol_at_1
         == " "
         return false
+      elsif !WIN_COMBINATIONS
+        return true
 end
