@@ -35,7 +35,7 @@ def won?(board)
   WIN_COMBINATIONS.each do |i|
       |i| === board
   return true
-  end
+  
 end
 end
 
