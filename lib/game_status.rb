@@ -29,14 +29,10 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
-board.each do |x|
-  position_1 = "X"
-  position_2 = "O"
-if board[x] == " " || board[x] !=  " "
+if !WIN_COMBINATIONS
   return false
 else
   return true
-end
 end
 end
 
