@@ -64,3 +64,12 @@ def draw?(board_array)
   return false
 end
 end
+
+
+def over?(board_array)
+  if won?(board_array) && draws?(board_array)
+    return true
+  else
+    return false
+  end
+end
