@@ -29,12 +29,12 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
-  if board == [] || !WIN_COMBINATIONS
-    return false
-  else board == WIN_COMBINATIONS.each do |i|
+  winner_index = WIN_COMBINATIONS.each do [index]
   end
+  if board == [] || !WIN_COMBINATIONS || board != winner_index[index]
+    return false
+  else
 
-      return board[i]
 
 end
 end
