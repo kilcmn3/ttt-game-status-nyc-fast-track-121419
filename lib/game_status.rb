@@ -34,7 +34,7 @@ def won?(board)
   elsif
   WIN_COMBINATIONS.each do |won_match|
      board == |won_match|
-    return puts won_match
+    return puts |won_match|
   end
 
 
