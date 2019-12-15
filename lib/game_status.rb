@@ -28,12 +28,8 @@ WIN_COMBINATIONS = [
 # position_3 = board[win_index_3] # load the value of the board at win_index_3
 
 
-def won?(board)
-if !WIN_COMBINATIONS
-  return false
-else
-  return true
-end
+def won?(board_array)
+  puts board_array
 end
 
 
