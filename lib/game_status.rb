@@ -34,7 +34,7 @@ def won?(board)
   else
   WIN_COMBINATIONS.each do |i|
     return   puts i
-
+end
 end
 end
 
