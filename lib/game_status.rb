@@ -58,7 +58,7 @@ end
 
 
 def draw?(board_array)
-  if full?(board_array) && !won?(board_arr)
+  if full?(board_array) && !won?(board_array)
     return true
   else
   return false
