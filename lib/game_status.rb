@@ -30,7 +30,7 @@ WIN_COMBINATIONS = [
 
 def won?(board_arr)
 
-  WIN_COMBINATIONS.each do |combo_arr|
+  board_arr.each do |combo_arr|
     first_index_1 = combo_arr[0]
     second_index_2 = combo_arr[1]
     third_index_3 = combo_arr[2]
@@ -48,18 +48,4 @@ end
 
 def full?(board_array)
 
-    WIN_COMBINATIONS.each do |combo_arr|
-      first_index_1 = combo_arr[0]
-      second_index_2 = combo_arr[1]
-      third_index_3 = combo_arr[2]
-
-      the_symbol_at_1 = board_arr[first_index_1] # load the value of the board at win_index_1
-      the_symbol_at_2 = board_arr[second_index_2] # load the value of the board at win_index_2
-      the_symbol_at_3 = board_arr[third_index_3]
-
-      if the_symbol_at_3 || the_symbol_at_2 || the_symbol_at_1
-        == " "
-        return false
-      elsif !WIN_COMBINATIONS
-        return true
 end
