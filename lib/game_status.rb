@@ -46,6 +46,12 @@ end
 return false
 end
 
-def full?(board_array)
 
+def full?(board_array)
+  board_array.each do |symbol|
+  if symbol == " "
+    return false
+end
+end
+return true
 end
