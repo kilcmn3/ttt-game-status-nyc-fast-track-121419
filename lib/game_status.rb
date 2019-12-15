@@ -18,3 +18,8 @@ WIN_COMBINATIONS = [
   [2,4,6]
 
 ]
+
+def won?(board)
+  if board === [] || if !WIN_COMBINATIONS
+    return false
+end
