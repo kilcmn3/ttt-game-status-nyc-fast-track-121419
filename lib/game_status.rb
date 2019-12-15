@@ -42,7 +42,7 @@ def won?(board)
   if board === WIN_COMBINATIONS.each do |i|
     return true
   else
-    false
+    return false
   end
 end
 
