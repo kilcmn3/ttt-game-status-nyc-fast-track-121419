@@ -34,7 +34,7 @@ def won?(board)
   else board == WIN_COMBINATIONS.each do |i|
   end
 
-      return board
+      return board[i]
 
 end
 end
