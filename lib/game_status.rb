@@ -36,7 +36,7 @@ if board[x] == " " || if board[x] !=  " "
   return false
 else
   return true
-
+end
 end
 end
 
