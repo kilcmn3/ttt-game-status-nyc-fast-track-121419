@@ -23,7 +23,7 @@ def won?(board)
   if board == [] || !WIN_COMBINATIONS
     return false
   else
-    pp WIN_COMBINATIONS[board]
+    puts WIN_COMBINATIONS[board]
   end
 end
 
