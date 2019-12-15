@@ -28,18 +28,15 @@ WIN_COMBINATIONS = [
 # position_3 = board[win_index_3] # load the value of the board at win_index_3
 
 
-# def won?(board)
-#   if board == [] || !WIN_COMBINATIONS
-#     return false
-#   else
-#     board === WIN_COMBINATIONS.each do |i|
-#       return i
-# end
-# end
-# end
-
 def won?(board)
-   board === WIN_COMBINATIONS.each do |i|
-return true
+  if board == [] || !WIN_COMBINATIONS
+    return false
+  else
+    board === WIN_COMBINATIONS.each do |i|
+      return i
 end
+end
+end
+
+
 #{name}
