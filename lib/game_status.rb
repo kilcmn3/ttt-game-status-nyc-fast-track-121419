@@ -43,7 +43,7 @@ def won?(board_array)
       return combo_arr
   end
 end
-
+return false
 end
 
 #{name}
